@@ -1,9 +1,13 @@
 package az.barama.endowed.model;
 
 import javax.persistence.Entity;
+<<<<<<< HEAD
 import javax.persistence.Id;
 import java.math.BigDecimal;
 
+=======
+import java.math.BigDecimal;
+>>>>>>> 023b369feb4e660af448062d1571c81ace09e276
 @Entity
 public class CustomerEntity {
 

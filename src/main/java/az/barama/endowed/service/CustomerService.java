@@ -10,8 +10,13 @@ public class CustomerService {
 
     private BankClient bankClient;
 
+<<<<<<< HEAD
     public CustomerService(BankClient bankClient) {
         this.bankClient = bankClient;
+=======
+    public CustomerService(BankClient pashaBankClient) {
+        this.bankClient = pashaBankClient;
+>>>>>>> 023b369feb4e660af448062d1571c81ace09e276
     }
 
     public Bank getInterestRate(CustomerInfo customerInfo){

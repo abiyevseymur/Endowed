@@ -4,26 +4,30 @@ import java.math.BigDecimal;
 
 public class Bank {
 
-    private String customerId;
+    private int customerId;
 
     private BigDecimal interestRate;
 
     private BigDecimal amount;
 
+<<<<<<< HEAD
     public Bank() {
     }
 
     public Bank(String customerId, BigDecimal interestRate, BigDecimal amount) {
+=======
+    public Bank(int customerId, BigDecimal interestRate, BigDecimal amount) {
+>>>>>>> 023b369feb4e660af448062d1571c81ace09e276
         this.customerId = customerId;
         this.interestRate = interestRate;
         this.amount = amount;
     }
 
-    public String getCustomerId() {
+    public int getCustomerId() {
         return customerId;
     }
 
-    public void setCustomerId(String customerId) {
+    public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
 
