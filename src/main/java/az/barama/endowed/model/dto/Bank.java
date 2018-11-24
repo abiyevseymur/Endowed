@@ -4,11 +4,11 @@ import java.math.BigDecimal;
 
 public class PashaBank {
 
-    public String customerId;
+    private String customerId;
 
-    public BigDecimal interestRate;
+    private BigDecimal interestRate;
 
-    public BigDecimal amount;
+    private BigDecimal amount;
 
     public PashaBank(String customerId, BigDecimal interestRate, BigDecimal amount) {
         this.customerId = customerId;
