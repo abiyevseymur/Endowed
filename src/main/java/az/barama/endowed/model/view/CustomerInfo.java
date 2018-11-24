@@ -2,23 +2,23 @@ package az.barama.endowed.model.view;
 
 public class CustomerInfo {
 
-    public String customerId;
+    private int customerId;
 
-    public String bank;
+    private String bank;
 
-    public String cartNumber;
+    private String cardNumber;
 
-    public CustomerInfo(String customerId, String bank, String cartNumber) {
+    public CustomerInfo(int customerId, String bank, String cardNumber) {
         this.customerId = customerId;
         this.bank = bank;
-        this.cartNumber = cartNumber;
+        this.cardNumber = cardNumber;
     }
 
-    public String getCustomerId() {
+    public int getCustomerId() {
         return customerId;
     }
 
-    public void setCustomerId(String customerId) {
+    public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
 
@@ -30,11 +30,11 @@ public class CustomerInfo {
         this.bank = bank;
     }
 
-    public String getCartNumber() {
-        return cartNumber;
+    public String getCardNumber() {
+        return cardNumber;
     }
 
-    public void setCartNumber(String cartNumber) {
-        this.cartNumber = cartNumber;
+    public void setCardNumber(String cardNumber) {
+        this.cardNumber = cardNumber;
     }
 }

@@ -2,25 +2,25 @@ package az.barama.endowed.model.dto;
 
 import java.math.BigDecimal;
 
-public class PashaBank {
+public class Bank {
 
-    private String customerId;
+    private int customerId;
 
     private BigDecimal interestRate;
 
     private BigDecimal amount;
 
-    public PashaBank(String customerId, BigDecimal interestRate, BigDecimal amount) {
+    public Bank(int customerId, BigDecimal interestRate, BigDecimal amount) {
         this.customerId = customerId;
         this.interestRate = interestRate;
         this.amount = amount;
     }
 
-    public String getCustomerId() {
+    public int getCustomerId() {
         return customerId;
     }
 
-    public void setCustomerId(String customerId) {
+    public void setCustomerId(int customerId) {
         this.customerId = customerId;
     }
 

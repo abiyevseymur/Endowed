@@ -6,11 +6,11 @@ import az.barama.endowed.model.view.CustomerInfo;
 import org.springframework.stereotype.Service;
 
 @Service
-public class JavanService {
+public class CustomerService {
 
     private BankClient bankClient;
 
-    public JavanService(BankClient pashaBankClient) {
+    public CustomerService(BankClient pashaBankClient) {
         this.bankClient = pashaBankClient;
     }
 

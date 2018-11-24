@@ -1,7 +1,8 @@
-package az.barama.endowed.dao;
+package az.barama.endowed.model;
 
+import javax.persistence.Entity;
 import java.math.BigDecimal;
-
+@Entity
 public class CustomerEntity {
 
     private Long id;
