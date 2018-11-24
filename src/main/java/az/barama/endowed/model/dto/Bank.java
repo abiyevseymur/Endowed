@@ -2,7 +2,7 @@ package az.barama.endowed.model.dto;
 
 import java.math.BigDecimal;
 
-public class PashaBank {
+public class Bank {
 
     private String customerId;
 
@@ -10,7 +10,10 @@ public class PashaBank {
 
     private BigDecimal amount;
 
-    public PashaBank(String customerId, BigDecimal interestRate, BigDecimal amount) {
+    public Bank() {
+    }
+
+    public Bank(String customerId, BigDecimal interestRate, BigDecimal amount) {
         this.customerId = customerId;
         this.interestRate = interestRate;
         this.amount = amount;

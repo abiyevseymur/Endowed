@@ -2,16 +2,19 @@ package az.barama.endowed.model.view;
 
 public class CustomerInfo {
 
-    public String customerId;
+    private String customerId;
 
-    public String bank;
+    private String bank;
 
-    public String cartNumber;
+    private String cartNumber;
 
     public CustomerInfo(String customerId, String bank, String cartNumber) {
         this.customerId = customerId;
         this.bank = bank;
         this.cartNumber = cartNumber;
+    }
+
+    public CustomerInfo() {
     }
 
     public String getCustomerId() {

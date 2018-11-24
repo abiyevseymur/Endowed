@@ -1,9 +1,13 @@
-package az.barama.endowed.dao;
+package az.barama.endowed.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.math.BigDecimal;
 
+@Entity
 public class CustomerEntity {
 
+    @Id
     private Long id;
 
     private String customerId;
@@ -16,6 +20,14 @@ public class CustomerEntity {
         this.customerId = customerId;
         this.interestRate = interestRate;
         this.amount = amount;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getCustomerId() {
